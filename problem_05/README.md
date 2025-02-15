@@ -58,7 +58,7 @@ go test -v ./uniqueStrings/
 === RUN   TestUniqueStrings
 --- PASS: TestUniqueStrings (0.00s)
 PASS
-ok      main/uniqueStrings     0.001s
+ok      main/uniqueStrings     0.002s
 ```
 
 ---

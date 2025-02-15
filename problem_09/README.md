@@ -41,10 +41,33 @@ Consider the following tree:
 go run main.go
 ```
 
+### Expected Output:
+
+```
+Sum of tree values: 25
+```
+
 ### Run the unit tests
 
 ```sh
 go test -v ./tree/
+```
+
+### Expected Output:
+
+```
+=== RUN   TestSum
+=== RUN   TestSum/Empty_tree
+=== RUN   TestSum/Single_Node
+=== RUN   TestSum/Multiple_levels
+=== RUN   TestSum/Deeply_nested_tree
+--- PASS: TestSum (0.00s)
+    --- PASS: TestSum/Empty_tree (0.00s)
+    --- PASS: TestSum/Single_Node (0.00s)
+    --- PASS: TestSum/Multiple_levels (0.00s)
+    --- PASS: TestSum/Deeply_nested_tree (0.00s)
+PASS
+ok      main/tree       0.002s
 ```
 
 ---

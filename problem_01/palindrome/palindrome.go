@@ -4,18 +4,6 @@ import "strings"
 
 /*
 	===========================================================================================
-	Problem 01
-	===========================================================================================
-	A palindrome is a word or sequence of characters which reads the same backward or forward.
-	For example the words: level, anna, noon, rotator are all palindromes.
-	Write a function palindrom that accepts a string as an argument and returns a boolean
-	indicating whether the input is a palindrome or not, for example:
-		palindrome("anna") # returns True
-		palindrome("apple") # returns False
-*/
-
-/*
-	===========================================================================================
 	Proposed Solution
 	===========================================================================================
 	Procedure:

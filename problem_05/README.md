@@ -35,10 +35,30 @@ uniqueStrings([]string{"apples", "apples"})
 go run main.go
 ```
 
+### Expected Output:
+
+```
+Unique Strings Test:
+        Input: [apples oranges flowers apples] | Unique: [oranges flowers]
+        Input: [apples apples] | Unique: []
+        Input: [apple banana cherry] | Unique: [apple banana cherry]
+        Input: [Apple apple Banana banana] | Unique: []
+        Input: [] | Unique: []
+```
+
 ### Run the unit tests
 
 ```sh
 go test -v ./uniqueStrings/
+```
+
+### Expected Output:
+
+```
+=== RUN   TestUniqueStrings
+--- PASS: TestUniqueStrings (0.00s)
+PASS
+ok      main/uniqueStrings     0.001s
 ```
 
 ---

@@ -4,7 +4,7 @@ import "strings"
 
 /*
 	===========================================================================================
-										Problem 01
+	Problem 01
 	===========================================================================================
 	A palindrome is a word or sequence of characters which reads the same backward or forward.
 	For example the words: level, anna, noon, rotator are all palindromes.
@@ -16,7 +16,7 @@ import "strings"
 
 /*
 	===========================================================================================
-										Proposed Solution
+	Proposed Solution
 	===========================================================================================
 	Procedure:
 		1) Convert the whole string to lower case to handle Case Senstivity "Not mentioned but suggested"

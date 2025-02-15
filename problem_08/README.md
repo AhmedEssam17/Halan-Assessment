@@ -4,8 +4,6 @@
 
 ## Problem Statement
 
-Given an integer array of length n, find the index of the **first duplicate** element.
-
 Given an integer array of length n, find the index of the **first duplicate** element. in the array and state the runtime and space complexity of your implementation.
 
 ### Example

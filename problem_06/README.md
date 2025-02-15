@@ -32,10 +32,48 @@ For a **2×2 matrix**:\
 go run main.go
 ```
 
+### Expected Output:
+
+```
+Original matrix: [[1 2] [3 4]]
+Transposed matrix: [[1 3] [2 4]]
+
+Original matrix: [[1 2 3 4] [5 6 7 8]]
+Transposed matrix: [[1 5] [2 6] [3 7] [4 8]]
+
+Original matrix: [[1 2 3 4]]
+Transposed matrix: [[1] [2] [3] [4]]
+
+Original matrix: [[1] [2] [3] [4]]
+Transposed matrix: [[1 2 3 4]]
+
+Original matrix: []
+Transposed matrix: []
+```
+
 ### Run the unit tests
 
 ```sh
 go test -v ./transpose/
+```
+
+### Expected Output:
+
+```
+=== RUN   TestTransposeMatrix
+=== RUN   TestTransposeMatrix/2x2_Matrix
+=== RUN   TestTransposeMatrix/2x4_Matrix
+=== RUN   TestTransposeMatrix/1x4_Matrix
+=== RUN   TestTransposeMatrix/4x1_Matrix
+=== RUN   TestTransposeMatrix/Empty_Matrix
+--- PASS: TestTransposeMatrix (0.00s)
+    --- PASS: TestTransposeMatrix/2x2_Matrix (0.00s)
+    --- PASS: TestTransposeMatrix/2x4_Matrix (0.00s)
+    --- PASS: TestTransposeMatrix/1x4_Matrix (0.00s)
+    --- PASS: TestTransposeMatrix/4x1_Matrix (0.00s)
+    --- PASS: TestTransposeMatrix/Empty_Matrix (0.00s)
+PASS
+ok      main/transpose  0.002s
 ```
 
 ---

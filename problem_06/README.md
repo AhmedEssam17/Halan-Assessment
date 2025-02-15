@@ -6,11 +6,11 @@
 
 In **linear algebra**, the **transpose** of a matrix is a new matrix created by swapping the rows and columns of the original matrix. Given a matrix, we aim to write a function that transposes it.
 
-### 📖 Example
+### Example
 
 For a **2×2 matrix**:\
  | a11 a12 | >> | a11 b21 |\
- | b21 b22 | >> | a12 b22 |\
+ | b21 b22 | >> | a12 b22 |
 
 ## Proposed Solution
 

@@ -8,7 +8,8 @@ Write the Linux command needed to change a file name from original.txt to change
 
 ## Proposed Solution
 
-Procedure:\
+### **Procedure:**
+
 So the Linux command to rename a file called original.txt to changed.txt is as follows:
 
 ```sh

@@ -31,4 +31,12 @@ This simple Go code that runs as follows:
 go run main.go
 ```
 
+### Expected Output:
+
+Observe the file explorer to see the original.txt file being renamed to changed.txt
+
+```
+File renamed successfully using Linux command!
+```
+
 ---

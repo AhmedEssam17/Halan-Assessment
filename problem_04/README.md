@@ -41,10 +41,34 @@ squares its argument, then:
 go run main.go
 ```
 
+### Expected Output:
+
+```
+Function Composition Test:
+      Input: 6   | Composed: 49
+      Input: 0   | Composed: 1
+      Input: -3  | Composed: 4
+      Input: 10  | Composed: 121
+      Input: 100 | Composed: 10201
+```
+
 ### Run the unit tests
 
 ```sh
 go test -v ./composition/
+```
+
+### Expected Output:
+
+```
+=== RUN   TestSquare
+--- PASS: TestSquare (0.00s)
+=== RUN   TestInc
+--- PASS: TestInc (0.00s)
+=== RUN   TestCompose
+--- PASS: TestCompose (0.00s)
+PASS
+ok      main/composition    0.002s
 ```
 
 ---

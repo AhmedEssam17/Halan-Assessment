@@ -44,10 +44,37 @@ For example:
 go run main.go
 ```
 
+### Expected Output:
+
+```
+Testing runLengthEncode/Decode Functions:
+        Original: aaaaaaaaaabbbaxxxxyyyzyx | Encoded: a10b3a1x4y3z1y1x1    | Decoded: aaaaaaaaaabbbaxxxxyyyzyx | Match: true
+        Original: abcd                 | Encoded: a1b1c1d1             | Decoded: abcd                 | Match: true
+        Original: aaa                  | Encoded: a3                   | Decoded: aaa                  | Match: true
+        Original:                      | Encoded:                      | Decoded:                      | Match: true
+        Original: x                    | Encoded: x1                   | Decoded: x                    | Match: true
+        Original: zzzzzzzzzzz          | Encoded: z11                  | Decoded: zzzzzzzzzzz          | Match: true
+```
+
 ### Run the unit tests
 
 ```sh
 go test -v ./runLengthEncodeDecode/
+```
+
+### Expected Output:
+
+```
+=== RUN   TestRunLengthEncode
+--- PASS: TestRunLengthEncode (0.00s)
+=== RUN   TestRunLengthDecode
+--- PASS: TestRunLengthDecode (0.00s)
+=== RUN   TestRunLengthEncode_InvalidInput
+--- PASS: TestRunLengthEncode_InvalidInput (0.00s)
+=== RUN   TestRunLengthDecode_InvalidCases
+--- PASS: TestRunLengthDecode_InvalidCases (0.00s)
+PASS
+ok      main/runLengthEncodeDecode      0.002s
 ```
 
 ---
